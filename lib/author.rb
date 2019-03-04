@@ -13,7 +13,7 @@ class Author
 
   def initialize(name = nil)
     @name = name
-    @@post_count = []
+    @post = []
   end
 
   def add_post(post)
