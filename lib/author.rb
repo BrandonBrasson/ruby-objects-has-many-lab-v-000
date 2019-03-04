@@ -32,6 +32,6 @@ class Author
 
   def post_count
   @@post_count
-  return []
+
   end
 end
