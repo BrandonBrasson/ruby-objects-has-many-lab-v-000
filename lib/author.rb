@@ -23,7 +23,7 @@ class Author
   end
 
   def add_post_by_title(title)
-  if  post = Post.new(title)
+  posts = Post.new(title)
   self.add_post(post)
   end
 end
