@@ -11,7 +11,7 @@ def artist_name
   if @artist == nil
       nil
    else artist
-     @artist.name
+     []
    end
   end
 
