@@ -13,14 +13,14 @@ class Author
 
   def initialize(name = nil)
     @name = name
-    @post = []
+    @@post_count = []
   end
 
   def add_post(post)
-   puts "Hello World"
-    #@posts << post
-  #@@post_count << post
-  #  post.author = self
+   #puts "Hello World"
+    @posts << post
+  @@post_count << post
+   post.author = self
   end
 
   def add_post_by_title(title)
