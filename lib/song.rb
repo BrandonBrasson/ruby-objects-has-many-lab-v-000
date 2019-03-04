@@ -10,12 +10,9 @@ class Song
 def artist_name
   if @artist == nil
       return  nil
-   elsif
+   else
   @artist.name
-else
-[]
    end
   end
-end
 
   end
