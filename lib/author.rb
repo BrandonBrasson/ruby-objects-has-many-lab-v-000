@@ -19,7 +19,7 @@ class Author
 
 
 
-  def add_post(posts)
+  def add_post(post)
     @posts << posts
   @@post_count << post
     post.author = self
