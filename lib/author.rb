@@ -27,6 +27,7 @@ class Author
   return  self.add_post(post)
   end
 end
+
   def post_count
   @@post_count
   return []
